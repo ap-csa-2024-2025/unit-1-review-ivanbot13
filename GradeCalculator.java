@@ -4,7 +4,7 @@ public class GradeCalculator
   {
     String course = "AP Computer Science A";
     System.out.println("Course name: " + course);
-    int avgTime = 150;
+    int avgTime = 142;
     System.out.println("Average time spent in a week for this course in minutes: " + avgTime);
 
     int homework1 = 94;
@@ -30,7 +30,7 @@ public class GradeCalculator
     int minutes = avgTime%60;
     System.out.println("Weekly time spent: " + hours + "hrs and " + minutes + "mins");
 
-    double avgHW = (homework1 + homework2 + homework3 + homework4)/4;
+    double avgHW = (double)(homework1 + homework2 + homework3 + homework4)/4;
     System.out.println("Average homework grade: " + avgHW);
     double avgQuiz = (quiz1 + quiz2)/2;
     System.out.println("Average quiz grade: " + avgQuiz);
